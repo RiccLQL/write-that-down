@@ -64,7 +64,7 @@
    'gcal', 'gtasks', 'notion', 'asana'
  }
  
- const Home = () => {
+export const Home = (): JSX.Element => {
    const isDarkMode = useColorScheme() === 'dark';
  
    const backgroundStyle = {
@@ -122,6 +122,4 @@
      fontWeight: '700',
    },
  });
- 
- export default Home;
  
